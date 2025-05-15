@@ -1,0 +1,12 @@
+#calendar {
+    max-width: 50%;
+    margin: 40px auto;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none !important;
+}
+
+.fc-daygrid  a {
+    text-decoration: none;
+    color: black;
+}
