@@ -1,13 +1,9 @@
 <?php
 
+
 require_once("bootstrap.php");
-
-$templateParams["titolo"] = "Home";
-$templateParams["nome"] = "contenutoIndex.php";
-
-$templateParams["noteOggi"] = $dbh->getNoteOggi();
-$templateParams["diarioOggi"] = $dbh->getDiarioOggi();
-$templateParams["tasksScadenzaSettimana"] = $dbh->getTasksScadenzaSettimana();
+$templateParams["titolo"] = "Statistiche";
+$templateParams["nome"] = "contenutoStatistiche.php";
 
 $templateParams["noteTotali"] = $dbh->getNoteTotali()["Totale"];
 $templateParams["diarioTotali"] = $dbh->getDiarioTotali()["Totale"];
